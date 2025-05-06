@@ -1,0 +1,148 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* Шапка */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+}
+
+header .cta {
+    margin-left: auto;
+}
+
+/* Герой */
+.hero {
+    background: #ecf0f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+/* Услуги */
+.services {
+    padding: 50px 0;
+}
+
+.service-list {
+    display: flex;
+    gap: 20px;
+}
+
+.service-item {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Преимущества */
+.advantages {
+    background: #ecf0f1;
+    padding: 50px 0;
+}
+
+.advantages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.advantages ul li {
+    margin-bottom: 10px;
+}
+
+/* Отзывы */
+.reviews {
+    padding: 50px 0;
+}
+
+.review-list {
+    display: flex;
+    gap: 20px;
+}
+
+.review-item {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Контакты */
+.contact {
+    padding: 50px 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Футер */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
